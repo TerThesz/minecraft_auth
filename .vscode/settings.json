@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/ubuntu/Projects/mc-plugins/jars/spigot-1.17.1.jar"
+    ]
+}

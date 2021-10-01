@@ -1,0 +1,33 @@
+name: Authentication
+author: TerThesz
+version: 1.0.0
+description: An Authentication Plugin
+main: authentication.Main
+
+commands:
+   authentication:
+      usage: /<command> [reload|rl]
+      description: Main authentication command.
+      aliases: [auth]
+   login:
+      usage: /<command> <password>
+      description: Login
+      aliases: [l]
+   register:
+      usage: /<command> <password> <confirm password>
+      description: Register
+      aliases: [reg]
+   logout:
+      usage: /<command>
+      description: Logout
+   unregister:
+      usage: /<command> [arg]
+      description: Unregister
+      
+permissions:
+   auth.reload:
+      description: Reload the authentication plugin.
+      default: op
+   auth.unregister_others:
+      description: Unregister others
+      default: op
